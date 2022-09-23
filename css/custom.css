@@ -72,6 +72,12 @@
     font-family: 'Poppins';
 }
 
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
 .testimonial {
     margin-top: 50px; 
     background: #FDC830;  /* fallback for old browsers */
@@ -130,6 +136,12 @@
     .btn-trinary, .btn-outline-warning{
         margin-top: 10px;
         margin-left: 0 !important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .hero {
+      padding-top: 60px;
     }
 }
 
